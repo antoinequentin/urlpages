@@ -22,7 +22,7 @@ Read the Hacker News Discussion [here](https://news.ycombinator.com/item?id=2031
 
 ## Encrypt
 
-It is now possible to encrypt URL Pages using [Link Lock](https://github.com/jstrieb/link-lock). This static, distributed web application uses AES in the browser to encrypt the URL without transmitting any data. The encrypted link is then stored in a Link Lock URL, which, when visited, can only be unlocked with a password.
+It is now possible to encrypt URL Pages using [Link Lock](https://github.com/antoinequentin/link-lock). This static, distributed web application uses AES in the browser to encrypt the URL without transmitting any data. The encrypted link is then stored in a Link Lock URL, which, when visited, can only be unlocked with a password.
 
 
 ## How it works
@@ -57,7 +57,7 @@ I originally conceived this as a simple, static CodePen clone, but I felt the "p
 
 ## Examples
 
-The following examples were made and "published" using the provided [code editor](http://jstrieb.github.io/urlpages/editor).
+The following examples were made and "published" using the provided [code editor](http://antoinequentin.github.io/urlpages/editor).
 
 - My personal website
     - Code in the code editor [here](https://tinyurl.com/y64dmsqm)
@@ -66,22 +66,22 @@ The following examples were made and "published" using the provided [code editor
     - Code in the code editor [here](http://tinyurl.com/y6rrrlnm)
     - "Published" version [here](http://tinyurl.com/y5khpxpt)
 - A page with embedded images (no external image host)
-    - Code in the code editor [here](http://jstrieb.github.io/urlpages/examples/embed-code.html)
-    - "Published" page [here](http://jstrieb.github.io/urlpages/examples/embed-page.html)
+    - Code in the code editor [here](http://antoinequentin.github.io/urlpages/examples/embed-code.html)
+    - "Published" page [here](http://antoinequentin.github.io/urlpages/examples/embed-page.html)
 
 The following examples were cloned from existing pages using the bookmarklet.
 
-- My dad's food blog [here](http://jstrieb.github.io/urlpages/examples/food-blog.html)
-- The entire [editor](http://jstrieb.github.io/urlpages/editor) encoded in the URL [here](https://tinyurl.com/y62y9abz)
-- This GitHub project page [here](http://jstrieb.github.io/urlpages/examples/project-page.html)
-- A cloned New York Times Article [here](http://jstrieb.github.io/urlpages/examples/nyt.html)
+- My dad's food blog [here](http://antoinequentin.github.io/urlpages/examples/food-blog.html)
+- The entire [editor](http://antoinequentin.github.io/urlpages/editor) encoded in the URL [here](https://tinyurl.com/y62y9abz)
+- This GitHub project page [here](http://antoinequentin.github.io/urlpages/examples/project-page.html)
+- A cloned New York Times Article [here](http://antoinequentin.github.io/urlpages/examples/nyt.html)
 
 
 ## Bookmarklet
 
 Currently, the bookmarklet is very much in-development (read: mostly doesn't work). Feel free to try it anyway by visiting the link below and following the instructions, or pasting the code below into a bookmark:
 - [Bookmarklet instruction page](http://tinyurl.com/y5khpxpt)
-- `javascript:window.open("http://jstrieb.github.io/urlpages/#" + btoa(encodeURIComponent(document.documentElement.outerHTML)), "_blank")`
+- `javascript:window.open("http://antoinequentin.github.io/urlpages/#" + btoa(encodeURIComponent(document.documentElement.outerHTML)), "_blank")`
 
 The bookmarklet enables some of the most interesting and promising opportunities for URL Pages. Namely: cloning pages for archival purposes, sharing restricted information to bypass censorship, bypassing paywalls, storing entire pages in bookmarks, etc.
 
